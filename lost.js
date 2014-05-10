@@ -35,5 +35,5 @@ service.get('/search', function(request, response) {
     });
 
 });
-
+console.log(process.env.PORT);
 service.listen(process.env.PORT);
