@@ -1,0 +1,17 @@
+{
+  "name": "lost-and-found",
+  "version": "0.0.0",
+  "description": "Twitter Lost and Found",
+  "main": "lost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paule Lepage",
+  "license": "ISC",
+  "dependencies": {
+    "elasticsearch": "^2.1.4",
+    "express": "^4.1.2",
+    "forever": "^0.11.1",
+    "twitter": "^0.2.9"
+  }
+}
