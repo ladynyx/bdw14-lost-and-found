@@ -36,4 +36,4 @@ service.get('/search', function(request, response) {
 
 });
 
-service.listen(80);
+service.listen(process.env.PORT);
